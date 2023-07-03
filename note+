@@ -1,0 +1,5 @@
+Install the required dependency, sei-sdk, before running the script. The script connects to the Sei Network using the SeiSDK.connect method, retrieves the sender's account using the sdk.accounts.get function, creates a transfer transaction using the sdk.transactions.createTransferTransaction method, signs the transaction with the sender's account using the sdk.transactions.signTransaction function, and finally sends the signed transaction using the sdk.transactions.send method. The transaction result is then displayed in the console.
+
+Please ensure you have a good understanding of the Sei Network and the implications of sending tokens. Make sure to provide the correct addresses and amount when using the script.
+
+This script provides a convenient way to send SEI tokens between accounts on the Sei Network.
